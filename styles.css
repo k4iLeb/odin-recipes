@@ -1,0 +1,29 @@
+* {
+  /* border: 1px solid black; */
+}
+
+body {
+  font-family: "Lucida Console", Verdana, Monospace;
+  background-color: #2965f920;
+}
+
+img {
+  display: block;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.title,
+h1,
+h2 {
+  text-align: center;
+}
+
+.container {
+}
+
+.list {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 18px;
+}
