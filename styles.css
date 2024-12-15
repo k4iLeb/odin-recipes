@@ -1,10 +1,13 @@
 * {
   /* border: 1px solid black; */
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 body {
   font-family: "Lucida Console", Verdana, Monospace;
-  background-color: #2965f920;
+  /* background-color: #2965f920; */
 }
 
 img {
@@ -14,16 +17,40 @@ img {
   margin-right: auto;
 }
 
+a {
+  text-decoration: none;
+  /* color: white; */
+}
+
 .title,
 h1,
 h2 {
   text-align: center;
+  padding: 10px;
+  background-color: #2965f920;
+  width: 80%;
+  margin: 20px auto;
+  border-radius: 5px;
 }
 
 .container {
+  margin: 0 auto;
+}
+
+li {
+  padding: 10px;
+  margin: 10px auto;
+  border-radius: 5px;
+  background-color: #2965f920;
+  width: 400px;
+  text-align: center;
 }
 
 .list {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   font-size: 18px;
+}
+
+.land-list {
+  list-style: none;
 }
