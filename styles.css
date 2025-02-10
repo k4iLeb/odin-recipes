@@ -7,6 +7,8 @@
 
 body {
   font-family: "Lucida Console", Verdana, Monospace;
+  width: 1200px;
+  margin: 20px auto;
   /* background-color: #2965f920; */
 }
 
@@ -33,6 +35,13 @@ h2 {
   border-radius: 5px;
 }
 
+body p {
+  text-indent: 1rem;
+  padding: 0 10px;
+  width: 80%;
+}
+
+p,
 .container {
   margin: 0 auto;
 }
@@ -43,7 +52,6 @@ li {
   border-radius: 5px;
   background-color: #2965f920;
   width: 400px;
-  text-align: center;
 }
 
 .list {
